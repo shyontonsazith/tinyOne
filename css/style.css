@@ -1,6 +1,10 @@
 body{
     margin: 0;
     padding: 0%;
+   
+}
+.background{
+    width: 100%;
     background-image: url("../img/background.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,11 +13,13 @@ body{
     margin: 0 110px;
     overflow: hidden;
     
-    
+}
+.top{
+    margin-top: 50px;
 }
 header{
-    margin-top: 50px;
     
+    margin-bottom: 70px;
     
 }
 .logo{
@@ -42,4 +48,46 @@ float: left;
 } 
 .menu ul li:last-child a {
  margin-right: 0;
+}
+
+.info{
+overflow: hidden;
+margin-bottom: 110px;
+    
+}
+.inspiration{
+    width: 35%;
+    float: left;
+}
+.inspiration h3{
+    font-size: 32px;
+}
+.inspiration h5{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+}
+.inspiration p{
+    font-size: 16px;
+    margin-top: 30px;
+}
+.ipad{
+width: 35%;
+float: right;
+}
+
+.feature{
+    width: 80%;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.feature h2{
+    text-align: center;
+    font-size: 32px;
+}
+.feature p{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 20px;
 }
