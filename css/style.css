@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0%;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin: 0 110px;
+    overflow: hidden;
+    
+    
+}
+header{
+    margin-top: 50px;
+    
+    
+}
+.logo{
+width: 20%;
+float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 40%;
+    float: right;
+}
+.menu ul{
+    float: right;
+
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+  
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: 0 35px;
+} 
+.menu ul li:last-child a {
+ margin-right: 0;
+}
